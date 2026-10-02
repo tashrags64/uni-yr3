@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*contents*/
+/*headings    -  h1*/
+/*subheadings -  h2*/
+/*genral text -  body*/
+/*notes       -  .notes*/
+/*2 coloumns  -  .two-coloumns*/
+/*2 odd cols  -  .odd-coloumns*/
+/*narrow col  -  .column-narrow*/
+/*wide col    -  .column-wide*/
+/*3 cols      -  .three-columns*/
+/*table       -  .table*/
+/*small table -  .s-table*/
+/*notebox     -  .note-box*/
+
+/* headings */
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	color: #000000;
+	text-decoration: underline !important;
+	font-weight: bold;
+}
+
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/* general text */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open sans', monospace;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+
+
+/* notes and placeholders */
+.notes {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+
+/* two equal columns */
+.two-columns {
+	display: flex;
+	gap: 20px;
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+/* child box */
+.two-columns > div {
+	flex: 1;
+}
+
+/* image */
+.two-columns img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* two unequal columns */
+.odd-columns {
+	display: flex;
+	gap: 20px;
+	width: 80%;
+	max-width: 1500px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+/* narrow column */
+.column-narrow {
+	flex: 1;
+}
+
+/* wide column */
+.column-wide {
+	gap: 15px;
+	flex: 2; 
+	align-items: center;    
+}
+
+.column-wide img {
+    max-width: 100%; /* Prevents the image from being wider than the column */
+    height: auto;    /* Keeps the aspect ratio correct */
+}
+
+
+/* three equal columns */
+.three-columns {
+	display: flex;
+	gap: 20px;
+	width: 80%;
+	max-width: 1100px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+/* child box */
+.three-columns div {
+	flex: 1;
+}
+/* image */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* table */
+.table {
+	width: 80%;
+	max-width: 800px;
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+
+.table th, .table td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: left;
+}
+
+
+/* small table */
+.s-table {
+	width: 80%;
+	max-width: 800px;
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+
+.s-table th, .s-table td {
+	font-size: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: left;
+}
+
+
+/* note box */
+.note-box {
+	border: 2px solid #000;
+	max-width: 400px;
+	padding: 15px;
+	margin: 20px auto;
+	background-color: #fffce0; 
+	box-shadow: 5px 5px 0px #888; 
+}
+
