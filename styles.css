@@ -71,7 +71,7 @@ body {
 	flex: 1;
     justify-content: space-between; /* Pushes column 1 left, column 2 right */
     gap: 5px;                      /* Minimum spacing between them */
-    width: 80%;                     /* Adjust to bring columns closer or further */
+    width: 50%;                     /* Adjust to bring columns closer or further */
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
