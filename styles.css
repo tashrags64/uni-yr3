@@ -68,25 +68,23 @@ body {
 /* middle aligned columns */
 .mid-columns {
 	display: flex;
-	flex: 1;
-    justify-content: space-between; /* Pushes column 1 left, column 2 right */
-    gap: 5px;                      /* Minimum spacing between them */
+    justify-content: center; /* Pushes column 1 left, column 2 right */
+    gap: 15px;                      /* Minimum spacing between them */
     width: 50%;                     /* Adjust to bring columns closer or further */
-    max-width: 1000px;
     margin: 0 auto;
     align-items: center;
 }
 
 /* Left column styling */
 .mid-columns > div:first-child {
-    text-align: right;
-    width: 25%;
+	text-align: right;
+    border-right: 2px solid #303030; /* Adds a line between links */
+    padding-right: 15px;
 }
 
 /* Right column styling */
 .mid-columns > div:last-child {
     text-align: left;
-    width: 25%;
 }
 
 
