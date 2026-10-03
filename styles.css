@@ -78,8 +78,6 @@ body {
 /* Left column styling */
 .mid-columns > div:first-child {
 	text-align: right;
-    border-right: 2px solid #303030; /* Adds a line between links */
-    padding-right: 15px;
 }
 
 /* Right column styling */
