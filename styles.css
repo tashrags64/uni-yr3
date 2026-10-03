@@ -80,13 +80,13 @@ body {
 /* Left column styling */
 .mid-columns > div:first-child {
     text-align: right;
-    width: 45%;
+    width: 25%;
 }
 
 /* Right column styling */
 .mid-columns > div:last-child {
     text-align: left;
-    width: 45%;
+    width: 25%;
 }
 
 
