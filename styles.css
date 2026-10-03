@@ -68,6 +68,7 @@ body {
 /* middle aligned columns */
 .mid-columns {
 	display: flex;
+	flex: 1;
     justify-content: space-between; /* Pushes column 1 left, column 2 right */
     gap: 20px;                      /* Minimum spacing between them */
     width: 80%;                     /* Adjust to bring columns closer or further */
