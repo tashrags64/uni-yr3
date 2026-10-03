@@ -69,8 +69,8 @@ body {
 .two-thin-columns {
 	display: flex;
 	gap: 10px;
-	width: 80%;
-	max-width: 750px;
+	width: 50%;
+	max-width: 1000px;
 	margin: 0 auto;
 	align-items: center;
 }
