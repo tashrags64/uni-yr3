@@ -6,6 +6,7 @@
 /*genral text -  body*/
 /*notes       -  .notes*/
 /*2 coloumns  -  .two-coloumns*/
+/*2 thin cols -  .two-thin-coloumns*/
 /*2 odd cols  -  .odd-coloumns*/
 /*narrow col  -  .column-narrow*/
 /*wide col    -  .column-wide*/
@@ -56,12 +57,24 @@ body {
 /* two equal columns */
 .two-columns {
 	display: flex;
-	gap: 10px;
+	gap: 20px;
 	width: 80%;
 	max-width: 1000px;
 	margin: 0 auto;
 	align-items: center;
 }
+
+
+/* two thin columns */
+.two-thin-columns {
+	display: flex;
+	gap: 20px;
+	width: 80%;
+	max-width: 750px;
+	margin: 0 auto;
+	align-items: center;
+}
+
 
 /* child box */
 .two-columns > div {
