@@ -68,11 +68,12 @@ body {
 /* middle aligned columns */
 .mid-columns {
 	display: flex;
-	gap: 20px;
-	width: 80%;
-	max-width: 1000px;
-	margin: 0 auto;
-	align-items: center;
+    justify-content: space-between; /* Pushes column 1 left, column 2 right */
+    gap: 20px;                      /* Minimum spacing between them */
+    width: 80%;                     /* Adjust to bring columns closer or further */
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 /* Left column styling */
