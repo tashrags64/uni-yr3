@@ -70,7 +70,7 @@ body {
 	display: flex;
 	flex: 1;
     justify-content: space-between; /* Pushes column 1 left, column 2 right */
-    gap: 20px;                      /* Minimum spacing between them */
+    gap: 5px;                      /* Minimum spacing between them */
     width: 80%;                     /* Adjust to bring columns closer or further */
     max-width: 1000px;
     margin: 0 auto;
