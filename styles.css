@@ -6,7 +6,8 @@
 /*genral text -  body*/
 /*notes       -  .notes*/
 /*2 columns   -  .two-columns*/
-/*2 thin cols -  .two-thin-columns*/
+/*left col    -  div:first child*/
+/*right col   -  div:last child*/
 /*2 odd cols  -  .odd-columns*/
 /*narrow col  -  .column-narrow*/
 /*wide col    -  .column-wide*/
@@ -64,15 +65,26 @@ body {
 	align-items: center;
 }
 
-
-/* two thin columns */
-.two-thin-columns {
+/* middle aligned columns */
+.mid-columns {
 	display: flex;
-	gap: 10px;
+	gap: 20px;
 	width: 80%;
 	max-width: 1000px;
 	margin: 0 auto;
 	align-items: center;
+}
+
+/* Left column styling */
+.mid-columns > div:first-child {
+    text-align: right;
+    width: 45%;
+}
+
+/* Right column styling */
+.mid-columns > div:last-child {
+    text-align: left;
+    width: 45%;
 }
 
 
